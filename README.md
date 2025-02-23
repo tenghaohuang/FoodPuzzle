@@ -41,6 +41,35 @@ Flavor development in the food industry often relies on labor-intensive, subject
 ├── README.md                # This file
 └── LICENSE                  # License file
 ```
+## Sample Tasks
+      
+```
+An example MPC task
+{
+  "id": 0,
+  "task": "MPC",
+  "known_molecules": [
+    "L-arginine",
+    "3-Methylindole",
+    "2,5-Dimethylpyrazine",
+    "4-Methyl-2-pentanone",
+    "2-Methylbutyraldehyde",
+    "Styrene",
+    "Methyl butyrate",
+    "1-Octen-3-Ol",
+    "3-(Methylthio)propionaldehyde",
+    "..."
+  ],
+  "target_food": "Egg",
+  "missing_molecules": [
+    "Diethyl sulfide",
+    "lactic acid",
+    "2-Pentylfuran",
+    "..."
+  ]
+}
+```
+
 
 ## Citation
 
